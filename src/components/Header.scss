@@ -1,0 +1,21 @@
+header {
+   height: 65px;
+   display: flex;
+   background: linear-gradient(
+      90deg,
+      rgba(103, 34, 128, 1) 0%,
+      rgba(166, 38, 211, 1) 35%
+   );
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 30px;
+   color: #fff;
+
+   img {
+      width: 180px;
+   }
+
+   h3 {
+      font-size: 0.9rem;
+   }
+}

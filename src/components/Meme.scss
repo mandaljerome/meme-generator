@@ -1,0 +1,43 @@
+.meme {
+   margin: 50px 30px;
+
+   .form-control {
+      display: flex;
+      justify-content: space-between;
+
+      input {
+         width: 49%;
+         height: 35px;
+         border-radius: 5px;
+         border: 1px solid #D5D4D8;
+         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+         padding: 10px;
+      }
+
+      input:focus {
+         outline-color: #711f8d;
+      }
+   }
+
+   button {
+      background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+      border-radius: 5px;
+      color: #fff;
+      font-family: inherit;
+      height: 40px;
+      margin-top: 20px;
+      width: 100%;
+      border: none;
+      cursor: pointer;
+   }
+
+   button:active {
+      transform: scale(99%);
+   }
+
+
+   img {
+      width: 100%;
+      margin-top: 40px;
+   }
+}
